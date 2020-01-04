@@ -1,0 +1,167 @@
+body {
+    font-family: Montserrat;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* Header */
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    float: left;
+}
+
+span {
+    color: #77a466;
+}
+
+.beans {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+
+/* Header */
+
+header {
+    display: block;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 49.5%;
+}
+
+.third-width {
+    width: 33%;
+}
+
+/* Nav */
+
+nav {
+    float: right;
+    text-align: right;
+    padding-top: 2%;
+}
+
+nav ul {
+    list-style-type: none; 
+} 
+
+nav ul li {
+    display: inline;
+    padding-left: 2%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a:link, a:visited, a:hover, a:active {
+   text-decoration: none; 
+    color: #77a466;
+}
+
+/* MAIN */
+
+main {
+    
+}
+
+.beans {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+
+main h3 {
+    color: #77a466; 
+    text-transform: uppercase;
+}
+
+main p {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 18px;
+    
+}
+
+/* SECTION */
+
+.three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.specials {
+    flex: 1;
+    align-content: center;
+}
+
+.specials ul {
+    list-style-type: none;
+}
+
+.specials ul li {
+    color: #77a466;
+    line-height: 2;
+}
+
+.reviews {
+    flex: 1;
+    align-content: center;
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+.contact {
+    flex: 1;
+    align-content: center;
+} 
+
+.reviews p {
+    padding-right: 2%;
+}
+
+
+.contact,
+.reviews,
+.specials p h4 {
+    padding-left: 2%;
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+footer h3 {
+    color: black;
+    text-transform: uppercase;
+}
+
+footer span {
+    text-transform: lowercase;
+    font-family: 'Pacifico', cursive;
+}
